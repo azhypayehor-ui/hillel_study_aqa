@@ -1,1 +1,1 @@
-print("My Name is Yehor_Azhypa")
+print("My Name is Yehor")
