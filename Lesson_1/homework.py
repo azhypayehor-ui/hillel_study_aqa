@@ -18,10 +18,10 @@ apples = 2
 banana = apples * 4
 print(banana)
 # task 05 == виправте назви змінних
-first_storona = 1
-storona_2 = 2
+side_1 = 1
+side_2 = 2
 side_3 = 3
-storona_4 = 4
+side_4 = 4
 
 # task 06 == Порахуйте периметр фігури з task 05
 # та виведіть його для користувача
