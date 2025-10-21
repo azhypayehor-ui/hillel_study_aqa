@@ -42,14 +42,14 @@ warehouse_1 = "Надрукувати, Скільки товарів у перш
 warehouse_2 = "Надрукувати, Скільки товарів у другому складі?"
 warehouse_3 = "Надрукувати, Скільки товарів у третьому складі?"
 #solution
-sol_1 = total_amount_of_goods - warehouse_2_plus_3
-sol_3 = total_amount_of_goods - warehouse_1_plus_2
-sol_2 = total_amount_of_goods - (sol_1 + sol_3)
-sol_sum = sol_1 + sol_3 + sol_2
+warehouse_1 = total_amount_of_goods - warehouse_2_plus_3
+warehouse_3 = total_amount_of_goods - warehouse_1_plus_2
+warehouse_2 = total_amount_of_goods - (warehouse_1 + warehouse_3)
+sol_sum = warehouse_1 + warehouse_2 + warehouse_3
 
-print("Warehous 1 have:", sol_1)
-print("Warehous 2 have:", sol_2)
-print("Warehous 3 have:", sol_3)
+print("Warehous 1 have:", warehouse_1)
+print("Warehous 2 have:", warehouse_2)
+print("Warehous 3 have:", warehouse_3)
 print("Recheck, counted sum = condition sum :", sol_sum == total_amount_of_goods  )
 # task 06
 """
@@ -58,9 +58,14 @@ print("Recheck, counted sum = condition sum :", sol_sum == total_amount_of_goods
 вати необхідно буде півтора року по 1179 грн/місяць. Обчисліть
 вартість комп’ютера.
 """
-
-
+credit_time = 18 #"Monnths"
+mounthly_payment = 1179 #hrivnas
+total_price = "Треба визначитити"
+# solution #6
+total_price = credit_time * mounthly_payment
+print('Computer price = ', total_price)
 # task 07
+
 """
 Знайди остачу від діленя чисел:
 a) 8019 : 8     d) 7248 : 6
