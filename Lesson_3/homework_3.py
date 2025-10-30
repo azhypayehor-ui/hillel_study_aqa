@@ -23,10 +23,11 @@ print(alice_in_wonderland)
 """
 square_black_sea = 436402
 square_azov_sea = 37800
+calculate_area = "Підрахувати загальну площу"
+# find sum square of two seas
 #solution:
-sum_square = square_black_sea + square_azov_sea
-print('Сумарна площа двох морів', sum_square)
-
+calculate_area= square_black_sea + square_azov_sea
+print("Загальна площа дорівнює", calculate_area)
 # task 05
 """
 Мережа супермаркетів має 3 склади, де всього розміщено
@@ -72,8 +73,30 @@ a) 8019 : 8     d) 7248 : 6
 b) 9907 : 9     e) 7128 : 5
 c) 2789 : 5     f) 19224 : 9
 """
-
-
+numerator1 = 8019
+divider1 = 8
+remainder1 = numerator1 % divider1
+print("Remainder =", remainder1)
+numerator2 = 9907
+divider2 = 9
+remainder2 = numerator2 % divider2
+print("Remainder =", remainder2)
+numerator3 = 2789
+divider3 = 5
+remainder3 = numerator3 % divider3
+print("Remainder =", remainder3)
+numerator4 = 7248
+divider4 = 6
+remainder4 = numerator4 % divider4
+print("Remainder =", remainder4)
+numerator5 = 7128
+divider5 = 5
+remainder5 = numerator5 % divider5
+print("Remainder =", remainder5)
+numerator6 = 19224
+divider6 = 9
+remainder6 = numerator6 % divider6
+print("Remainder =", remainder6)
 # task 08
 """
 Іринка, готуючись до свого дня народження, склала список того,
@@ -87,6 +110,17 @@ c) 2789 : 5     f) 19224 : 9
 Вода            3           21 грн
 """
 
+# Grocery list for Irinka's birthday:
+list = [
+    ("Піца велика", 4, 274),
+    ("Піца середня", 2, 218),
+    ("Сік", 4, 35),
+    ("Торт", 1, 350),
+    ("Вода", 3, 21)
+]
+total_price = ((list[0][1] * list[0][2]) + (list[1][1] * list[1][2]) + (list[2][1] * list[2][2]) +
+               (list[3][1] * list[3][2]) + (list[4][1] * list[4][2]))
+print(total_price)
 
 # task 09
 """
@@ -95,7 +129,10 @@ c) 2789 : 5     f) 19224 : 9
 розміщено щонайбільше 8 фото. Скільки сторінок знадобиться
 Ігорю, щоб вклеїти всі фото?
 """
-
+total_photo_number = 232
+amount_per_list = 8
+total_amount_of_lists = 232/8
+print(float(total_amount_of_lists))
 
 # task 10
 """
@@ -109,3 +146,10 @@ c) 2789 : 5     f) 19224 : 9
 ний бак?
 """
 
+trip_km = 1600
+fuel_consumption = 9 # per 100 km
+fuel_tank = 48
+total_fuel = fuel_consumption * trip_km / 100
+total_petrol_statio_visits = total_fuel / fuel_tank
+print(total_fuel)
+print(total_petrol_statio_visits)
