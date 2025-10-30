@@ -4,16 +4,26 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f702a49c-01c6-4644-abe1-864a7e73dc63" name="Changes" comment="1234567" />
+    <list default="true" id="f702a49c-01c6-4644-abe1-864a7e73dc63" name="Changes" comment="hw3 aDone">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="ChangesViewManager" show_ignored="true" />
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="Jira-Branch-test" />
+        <entry key="$PROJECT_DIR$" value="home_work_2" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -27,13 +37,19 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/yehor/hillel_study_aqa&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Python.homework_3.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "Lessonn3__homework",
+    "last_opened_file_path": "/Users/yehor/hillel_study_aqa"
   }
-}</component>
+}]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -66,7 +82,47 @@
       <option name="project" value="LOCAL" />
       <updated>1760387632296</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Commit 2">
+      <option name="closed" value="true" />
+      <created>1760390283311</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1760390283311</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Commit 2">
+      <option name="closed" value="true" />
+      <created>1761004957258</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1761004957258</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Commit 2">
+      <option name="closed" value="true" />
+      <created>1761068190331</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1761068190331</updated>
+    </task>
+    <task id="LOCAL-00006" summary="hw3 almost donen">
+      <option name="closed" value="true" />
+      <created>1761088520683</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1761088520683</updated>
+    </task>
+    <task id="LOCAL-00007" summary="hw3 aDone">
+      <option name="closed" value="true" />
+      <created>1761785717974</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1761785717974</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -83,6 +139,10 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Test 1212" />
     <MESSAGE value="1234567" />
-    <option name="LAST_COMMIT_MESSAGE" value="1234567" />
+    <MESSAGE value="Commit" />
+    <MESSAGE value="Commit 2" />
+    <MESSAGE value="hw3 almost donen" />
+    <MESSAGE value="hw3 aDone" />
+    <option name="LAST_COMMIT_MESSAGE" value="hw3 aDone" />
   </component>
 </project>
