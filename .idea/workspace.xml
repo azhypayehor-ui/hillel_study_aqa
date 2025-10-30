@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f702a49c-01c6-4644-abe1-864a7e73dc63" name="Changes" comment="Commit 2">
+    <list default="true" id="f702a49c-01c6-4644-abe1-864a7e73dc63" name="Changes" comment="hw3 aDone">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lesson_3/homework_3.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lesson_3/homework_3.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -107,7 +106,23 @@
       <option name="project" value="LOCAL" />
       <updated>1761068190331</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="hw3 almost donen">
+      <option name="closed" value="true" />
+      <created>1761088520683</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1761088520683</updated>
+    </task>
+    <task id="LOCAL-00007" summary="hw3 aDone">
+      <option name="closed" value="true" />
+      <created>1761785717974</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1761785717974</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -126,6 +141,8 @@
     <MESSAGE value="1234567" />
     <MESSAGE value="Commit" />
     <MESSAGE value="Commit 2" />
-    <option name="LAST_COMMIT_MESSAGE" value="Commit 2" />
+    <MESSAGE value="hw3 almost donen" />
+    <MESSAGE value="hw3 aDone" />
+    <option name="LAST_COMMIT_MESSAGE" value="hw3 aDone" />
   </component>
 </project>
