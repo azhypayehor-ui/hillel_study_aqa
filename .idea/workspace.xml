@@ -5,8 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f702a49c-01c6-4644-abe1-864a7e73dc63" name="Changes" comment="1234567">
-      <change afterPath="$PROJECT_DIR$/Lesson_4/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lesson_4/homework_4.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lesson_4/homework_4.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lesson_4/homework_4.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,6 +39,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Python.homework_4.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "homework4",
     "last_opened_file_path": "/Users/yehor/hillel_study_aqa"
