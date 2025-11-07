@@ -1,4 +1,4 @@
-adwentures_of_tom_sawer = """
+adwentures_of_tom_sawer = """\
 Tom gave up the brush with reluctance in his .... face but alacrity
 in his heart. And while
 the late steamer
@@ -17,8 +17,7 @@ out, Johnny Miller bought
 in for a dead rat and a string to swing it with—and so on, and so on,
 hour after hour. And when the middle of the afternoon came, from being a
 poor poverty, stricken boy in the .... morning, Tom was literally
-rolling in wealth.
-"""
+rolling in wealth."""
 
 ##  ПЕРЕЗАПИСУЙТЕ зміст змінної adwentures_of_tom_sawer у завданнях 1-3
 # task 01 ==
@@ -36,8 +35,8 @@ print("Task 2:", fixed_text_2)
 """ Зробіть так, щоб у тексті було не більше одного пробілу між словами.
 """
 
-fixed_text_3 = adwentures_of_tom_sawer.replace("  ", " ")
-print("Task 3:", fixed_text_3)
+adwentures_of_tom_sawer = ' '.join(adwentures_of_tom_sawer.split())
+print("Task 3:", adwentures_of_tom_sawer)
 
 # task 04
 """ Виведіть, скількі разів у тексті зустрічається літера "h"
@@ -60,8 +59,9 @@ print(f"Total amount of words starts with capital: {counted_words}")
 # task 06
 """ Виведіть позицію, на якій слово Tom зустрічається вдруге
 """
-tom_finding = adwentures_of_tom_sawer.find("Tom",10)
-print("Task 06:", tom_finding)
+step_1 = adwentures_of_tom_sawer.find("Tom")
+step_2 = adwentures_of_tom_sawer.find("Tom", step_1 + 1)
+print("Task 06:", step_2)
 # task 07
 """ Розділіть змінну adwentures_of_tom_sawer по кінцю речення.
 Збережіть результат у змінній adwentures_of_tom_sawer_sentences
@@ -73,17 +73,19 @@ print("Task 07:", adwentures_of_tom_sawer_sentences)
 Перетворіть рядок у нижній регістр.
 """
 
-fourth_sentance = adwentures_of_tom_sawer[433:671]
-print("Task 8:", fourth_sentance.lower())
+fourth_sentance = fixed_text_2.split(". ")
+print("Task 8:", fourth_sentance[3].lower())
 # task 09
 """ Перевірте чи починається якесь речення з "By the time".
 """
-find_begining = adwentures_of_tom_sawer.find("By the time", 0)
-print("Task 09:", find_begining)
+find_begining = fixed_text_2.find("By the time")
+if find_begining != -1:
+    print(f"Task 09: Find on index {find_begining}.")
+else:
+    print("Task 09: beggining is absent")
 # task 10
 """ Виведіть кількість слів останнього речення з adwentures_of_tom_sawer_sentences.
 """
-
-last_sentance = adwentures_of_tom_sawer[672:-1]
-last_sentance_split = last_sentance.split(" ")
+split_by_sentance = fixed_text_2.split(". ")
+last_sentance_split = split_by_sentance[-1].split(" ")
 print("Task 10: Amount of words =", len(last_sentance_split))
