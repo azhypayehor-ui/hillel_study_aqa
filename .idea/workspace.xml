@@ -23,7 +23,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="Jira-Branch-test" />
+        <entry key="$PROJECT_DIR$" value="home_work_2" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -45,6 +45,17 @@
     "last_opened_file_path": "/Users/yehor/hillel_study_aqa"
   }
 }]]></component>
+    "Python.homework_3.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "Lessonn3__homework",
+    "last_opened_file_path": "/Users/yehor/hillel_study_aqa"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -102,6 +113,10 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Test 1212" />
     <MESSAGE value="1234567" />
-    <option name="LAST_COMMIT_MESSAGE" value="1234567" />
+    <MESSAGE value="Commit" />
+    <MESSAGE value="Commit 2" />
+    <MESSAGE value="hw3 almost donen" />
+    <MESSAGE value="hw3 aDone" />
+    <option name="LAST_COMMIT_MESSAGE" value="hw3 aDone" />
   </component>
 </project>
