@@ -4,6 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
+    <list default="true" id="f702a49c-01c6-4644-abe1-864a7e73dc63" name="Changes" comment="1234567">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lesson_4/homework_4.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lesson_4/homework_4.py" afterDir="false" />
     <list default="true" id="f702a49c-01c6-4644-abe1-864a7e73dc63" name="Changes" comment="hw3 aDone">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
@@ -39,6 +42,12 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Python.homework_4.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "homework4",
+    "last_opened_file_path": "/Users/yehor/hillel_study_aqa"
+  }
+}]]></component>
     "Python.homework_3.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "Lessonn3__homework",
@@ -82,6 +91,15 @@
       <option name="project" value="LOCAL" />
       <updated>1760387632296</updated>
     </task>
+    <task id="LOCAL-00003" summary="1234567">
+      <option name="closed" value="true" />
+      <created>1762216303321</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1762216303322</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <task id="LOCAL-00003" summary="Commit 2">
       <option name="closed" value="true" />
       <created>1760390283311</created>
